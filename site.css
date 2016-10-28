@@ -31,14 +31,15 @@ blockquote {
 	margin: 20px 40px;
 }
 
-aside {
+.navegacao-site {
 	background-color: #3C1D3D;
 	color: #F2FFFC;
 }
 
-footer {
+.rodape-pagina {
 	background-color: #000;
 	color: #F2FFFC;
+	padding: 20px;
 }
 
 nav a {
@@ -54,7 +55,7 @@ aside a {
 	font-family: "Open Sans Condensed", sans-serif;
 }
 
-blockquote, aside, footer {
+blockquote, .navegacao-site, footer {
     padding: 20px;
 }
 
@@ -64,16 +65,16 @@ main div {
 	padding: 30px 0;
 }
 
-aside {
+.navegacao-site {
 	text-align: center;
 }
 
-aside h1 {
+.navegacao-site h1 {
 	font-size: 30px;
 	margin-bottom: 25px;
 }
 
-aside li {
+.icones-sociais li {
     display: inline-block;
 }
 
@@ -87,4 +88,10 @@ em {
 
 h2 {
 	font-size: 30px;
+}
+
+article footer {
+	padding-bottom: 30px;
+	border-bottom: 1px solid #ccc;
+	margin-bottom: 20px;
 }
